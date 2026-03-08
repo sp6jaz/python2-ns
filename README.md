@@ -22,14 +22,14 @@ Kurs uczy praktycznego wykorzystania Pythona w analizie danych biznesowych. Pozn
 ```
 zjazd-01-cz1/   ← zjazd 1, część 1 (warsztat pracy)
 zjazd-01-cz2/   ← zjazd 1, część 2 (pipeline analityczny)
-zjazd-03-cz1/   ← zjazd 3, część 1
+zjazd-03-cz1/   ← zjazd 3, część 1 (NumPy)
 ...
 skrypt/          ← skrypt do samodzielnej nauki
 ```
 
 Zajęcia odbywają się **co drugi zjazd** (zjazdy nieparzyste). Każdy zjazd obejmuje wykład + laboratorium w dwóch częściach. Materiały pojawiają się **zjazd po zjeździe** zgodnie z harmonogramem.
 
-## Harmonogram — studia niestacjonarne (zjazdy)
+## Harmonogram — studia niestacjonarne (5 spotkań, co drugi zjazd)
 
 | Zjazd | Temat |
 |-------|-------|
@@ -37,17 +37,12 @@ Zajęcia odbywają się **co drugi zjazd** (zjazdy nieparzyste). Każdy zjazd ob
 | Zjazd 1 cz. 2 | Wprowadzenie do analizy danych — pipeline, Jupyter |
 | Zjazd 3 cz. 1 | NumPy — podstawy |
 | Zjazd 3 cz. 2 | NumPy — zaawansowane |
-| Zjazd 5 cz. 1 | Pandas — Series i DataFrame |
-| Zjazd 5 cz. 2 | Pandas — selekcja i filtrowanie |
-| Zjazd 7 cz. 1 | Pandas — czyszczenie danych |
-| Zjazd 7 cz. 2 | Pandas — łączenie i agregacja |
-| Zjazd 9 cz. 1 | Matplotlib — podstawy |
-| Zjazd 9 cz. 2 | Matplotlib + Seaborn — zaawansowane |
-| Zjazd 11 cz. 1 | Statystyka opisowa |
-| Zjazd 11 cz. 2 | Statystyka — rozkłady i testy |
-| Zjazd 13 cz. 1 | Zaawansowane biblioteki |
-| Zjazd 13 cz. 2 | LLM i AI w analizie danych |
-| Zjazd 15 | Podsumowanie i prezentacje |
+| Zjazd 5 cz. 1 | Pandas — intro, Series, DataFrame |
+| Zjazd 5 cz. 2 | Pandas — selekcja, filtrowanie, czyszczenie |
+| Zjazd 7 cz. 1 | Pandas — łączenie, agregacja + Matplotlib |
+| Zjazd 7 cz. 2 | Seaborn, dashboardy + statystyka opisowa |
+| Zjazd 9 cz. 1 | Statystyka — testy hipotez + zaawansowane biblioteki |
+| Zjazd 9 cz. 2 | LLM i AI w analizie danych + podsumowanie |
 
 ### Logika kursu
 
@@ -55,12 +50,9 @@ Zajęcia odbywają się **co drugi zjazd** (zjazdy nieparzyste). Każdy zjazd ob
 |-------|---------------|------------------------|
 | 1 | Warsztat + Panorama | Git, VS Code, venv, pipeline od pytania do decyzji |
 | 3 | Fundament | NumPy — szybkie obliczenia na tablicach danych |
-| 5 | Rdzeń kursu | Pandas — wczytanie danych, selekcja i filtrowanie |
-| 7 | Rdzeń kursu | Pandas — czyszczenie, łączenie i agregacja |
-| 9 | Wizualizacja | Matplotlib + Seaborn — wykresy i dashboardy |
-| 11 | Statystyka | Statystyka opisowa + testy hipotez |
-| 13 | Rozszerzenia + AI | scikit-learn, Plotly, LLM i API modeli |
-| 15 | Zamknięcie | Prezentacje mini-projektów, podsumowanie semestru |
+| 5 | Rdzeń kursu | Pandas — od wczytania danych po filtrowanie i czyszczenie |
+| 7 | Rdzeń + Wizualizacja | Agregacja, wykresy, dashboardy, statystyka opisowa |
+| 9 | Statystyka + AI | Testy hipotez, scikit-learn, LLM, podsumowanie semestru |
 
 ## Szybki start
 
