@@ -74,7 +74,7 @@ Każde laboratorium ma ten sam schemat pracy:
 ```
 PRZED LABEM:
   1. Otwórz VS Code
-  2. Aktywuj środowisko: source .venv/bin/activate
+  2. Aktywuj środowisko: .venv\Scripts\Activate.ps1
   3. Utwórz nowy folder labXX/ (jeśli nie istnieje)
 
 PODCZAS LABU:
@@ -91,13 +91,12 @@ PO LABIE:
 
 **Krok 1: Przygotowanie (przed zajęciami lub na początku)**
 
-```bash
-cd ~/python2-lab
-source .venv/bin/activate     # Linux/macOS
-# .venv\Scripts\Activate.ps1  # Windows
+```powershell
+cd C:\Users\student\python2-lab
+.venv\Scripts\Activate.ps1
 
 # Utwórz folder na dzisiejsze lab (np. lab03)
-mkdir -p lab03
+mkdir lab03
 cd lab03
 ```
 
@@ -105,7 +104,7 @@ cd lab03
 
 Otwórz VS Code w głównym katalogu projektu:
 ```bash
-cd ~/python2-lab
+cd C:\Users\student\python2-lab
 code .
 ```
 
@@ -366,8 +365,8 @@ Ostatnia komórka (Markdown): ## Podsumowanie
 |---------|-------------|
 | `git push` odmawia (403) — **komputer uczelniany** | Windows zapamiętał dane innej osoby. Uruchom `git-fix-windows.bat` z repozytorium materiałów (albo ręcznie: `cmdkey /delete:git:https://github.com` w PowerShell, potem `git config --global --unset credential.helper`). Następnie `git push` — poda Twój login i token. |
 | `git push` odmawia (401) — **własny komputer** | Token wygasł lub jest błędny → wygeneruj nowy: GitHub → Settings → Developer settings → Personal access tokens → zaznacz `repo` → skopiuj |
-| "Not a git repository" | Jesteś w złym katalogu → `cd ~/python2-lab` |
-| Notebook nie widzi bibliotek | Nie aktywowałeś venv → `source .venv/bin/activate` |
+| "Not a git repository" | Jesteś w złym katalogu → `cd C:\Users\student\python2-lab` |
+| Notebook nie widzi bibliotek | Nie aktywowałeś venv → `.venv\Scripts\Activate.ps1` |
 | `.venv` trafił do repo | Dodaj do `.gitignore`, potem: `git rm -r --cached .venv/` |
 | Merge conflict | Przeczytaj co git mówi, edytuj plik, commituj |
 | Zapomniałem pushować | `git push` — nigdy nie jest za późno |

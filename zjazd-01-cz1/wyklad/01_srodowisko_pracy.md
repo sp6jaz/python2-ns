@@ -190,11 +190,8 @@ git init
 # 3. Utwórz środowisko wirtualne
 uv venv
 
-# 4. Aktywuj środowisko
-# Linux/macOS:
-source .venv/bin/activate
-# Windows (PowerShell):
-# .venv\Scripts\Activate.ps1
+# 4. Aktywuj środowisko (Windows PowerShell)
+.venv\Scripts\Activate.ps1
 
 # 5. Zainstaluj biblioteki
 uv pip install numpy pandas matplotlib jupyter
@@ -290,17 +287,9 @@ graph TD
     D --> E["git push"]
 ```
 
-### Windows (PowerShell)
 ```powershell
 cd moj-projekt
 .venv\Scripts\Activate.ps1
-code .
-```
-
-### Linux/macOS
-```bash
-cd moj-projekt
-source .venv/bin/activate
 code .
 ```
 
@@ -311,7 +300,7 @@ code .
 | Co chcę zrobić | Polecenie |
 |---------------|-----------|
 | Utworzyć venv | `uv venv` |
-| Aktywować venv (Linux) | `source .venv/bin/activate` |
+| Aktywować venv (Linux) | `.venv\Scripts\Activate.ps1` |
 | Aktywować venv (Windows) | `.venv\Scripts\Activate.ps1` |
 | Zainstalować pakiet | `uv pip install nazwa` |
 | Zainstalować z requirements.txt | `uv pip install -r requirements.txt` |

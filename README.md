@@ -66,8 +66,7 @@ cd python2-ns
 
 # 3. Utwórz środowisko
 uv venv
-source .venv/bin/activate       # Linux/macOS
-# .venv\Scripts\Activate.ps1    # Windows
+.venv\Scripts\Activate.ps1
 
 # 4. Zainstaluj pakiety
 uv pip install numpy pandas matplotlib seaborn scipy jupyter ipykernel

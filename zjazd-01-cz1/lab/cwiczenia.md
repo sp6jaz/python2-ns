@@ -271,12 +271,6 @@ uv venv
 
 ### Krok 2 — Aktywuj środowisko
 
-**Linux/macOS:**
-```bash
-source .venv/bin/activate
-```
-
-**Windows (PowerShell):**
 ```powershell
 .venv\Scripts\Activate.ps1
 ```
@@ -379,16 +373,16 @@ Przygotuj repozytorium na pracę przez cały semestr — foldery na laboratoria 
 
 ### Krok 1 — Utwórz foldery na wszystkie laboratoria
 
-```bash
-cd ~/python2-lab
+```powershell
+cd C:\Users\student\python2-lab
 
 # Utwórz foldery na każde laboratorium + projekt
-mkdir -p lab01 lab02 lab03 lab04 lab05 lab06 lab07 lab08 lab09 lab10 lab11 lab12 lab13 lab14 projekt
+mkdir lab01, lab02, lab03, lab04, lab05, lab06, lab07, lab08, lab09, lab10, lab11, lab12, lab13, lab14, projekt
 ```
 
 ### Krok 2 — Przenieś dotychczasowe pliki
 
-```bash
+```powershell
 # Przenieś pliki z L01 do lab01/
 mv hello_data.py lab01/
 mv notebook_test.ipynb lab01/
@@ -446,8 +440,8 @@ Po dzisiejszych zajęciach masz:
 ### Workflow na każde następne laboratorium
 
 ```
-1. cd ~/python2-lab
-2. source .venv/bin/activate
+1. cd C:\Users\student\python2-lab
+2. .venv\Scripts\Activate.ps1
 3. Otwórz VS Code: code .
 4. Pracuj w folderze labXX/
 5. Commituj po KAŻDYM ćwiczeniu
@@ -467,7 +461,7 @@ Pełna instrukcja: **jak_pracowac.md** (do pobrania z Moodle)
 |---------|-------------|
 | `python: command not found` | Dodaj Python do PATH. Windows: zainstaluj ponownie z python.org zaznaczając "Add to PATH" |
 | `uv: command not found` | **Windows:** zamknij i otwórz ponownie PowerShell (PATH się odświeży). Jeśli nadal nie działa — zainstaluj ponownie: `powershell -c "irm https://astral.sh/uv/install.ps1 \| iex"`. **Linux/Mac:** `curl -LsSf https://astral.sh/uv/install.sh \| sh`, potem `source ~/.bashrc` |
-| `(.venv)` nie pojawia się przed promptem | Upewnij się, że wykonałeś `source .venv/bin/activate` (Linux/Mac) lub `.venv\Scripts\activate` (Windows) |
+| `(.venv)` nie pojawia się przed promptem | Upewnij się, że wykonałeś `.venv\Scripts\Activate.ps1` w PowerShell |
 | `git: command not found` | Zainstaluj Git: https://git-scm.com/download |
 | VS Code nie widzi Pythona z venv | W VS Code: Ctrl+Shift+P → "Python: Select Interpreter" → wybierz `.venv` |
 | `ModuleNotFoundError: No module named 'numpy'` | Aktywuj venv i zainstaluj: `uv pip install numpy pandas matplotlib` |

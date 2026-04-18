@@ -23,8 +23,8 @@ Na wykładzie poznaliście broadcasting, reshape i zaawansowane operacje NumPy. 
 Otwórz terminal w VS Code i wpisz:
 
 ```
-cd ~/python2-lab
-source .venv/bin/activate
+cd C:\Users\student\python2-lab
+.venv\Scripts\Activate.ps1
 code .
 ```
 
@@ -347,7 +347,7 @@ wizyty = np.random.poisson(5, 100)
 ## Ćwiczenie 5: Commit na GitHub (5 min)
 
 ```bash
-cd ~/python2-lab
+cd C:\Users\student\python2-lab
 git add zjazd03_cz2_numpy_advanced.ipynb
 git commit -m "Zjazd 3 cz.2: NumPy zaawansowane — broadcasting, analiza finansowa"
 git push
@@ -371,7 +371,7 @@ Po dzisiejszych zajęciach umiesz:
 
 | Problem | Rozwiązanie |
 |---------|-------------|
-| `ModuleNotFoundError: No module named 'numpy'` | Aktywuj środowisko: `source .venv/bin/activate` |
+| `ModuleNotFoundError: No module named 'numpy'` | Aktywuj środowisko: `.venv\Scripts\Activate.ps1` |
 | `ValueError: operands could not be broadcast` | Sprawdź kształty: `print(a.shape, b.shape)`. Wymiary muszą być takie same lub równe 1 |
 | Broadcasting: wektor nie pasuje do macierzy | Wektor (4,) pasuje do kolumn (oś 1). Jeśli chcesz po wierszach — `reshape(4, 1)` |
 | `reshape(-1, 4)` — co oznacza `-1`? | `-1` = oblicz automatycznie. 12 elementów, 4 kolumny -> `-1` = 3 wiersze |

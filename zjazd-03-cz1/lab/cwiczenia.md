@@ -30,8 +30,8 @@ Naucz się tworzyć tablice NumPy różnymi sposobami i poznaj ich atrybuty.
 1. Otwórz terminal w VS Code
 2. Przejdź do katalogu projektu i aktywuj środowisko:
 ```
-cd ~/python2-lab
-source .venv/bin/activate
+cd C:\Users\student\python2-lab
+.venv\Scripts\Activate.ps1
 code .
 ```
 3. Utwórz notebook `zjazd03_cz1_numpy.ipynb`
@@ -353,7 +353,7 @@ Dodaj komórkę Markdown:
 ## Ćwiczenie 5: Commit na GitHub (5 min)
 
 ```bash
-cd ~/python2-lab
+cd C:\Users\student\python2-lab
 git add zjazd03_cz1_numpy.ipynb
 git commit -m "Zjazd 3 cz.1: ćwiczenia NumPy — tablice, operacje, benchmark"
 git push

@@ -23,14 +23,6 @@ code .
 
 Po drugiej komendzie na początku linii pojawi się `(.venv)` — to znaczy, że środowisko jest aktywne. Trzecia komenda otworzy VS Code z Twoimi plikami.
 
-### Linux / macOS
-
-```bash
-cd ~/python2-lab
-source .venv/bin/activate
-code .
-```
-
 ### Coś nie działa?
 
 | Problem | Rozwiązanie |
@@ -420,13 +412,6 @@ Zapisz notebook w VS Code (`Ctrl+S`), potem otwórz **terminal** w VS Code (menu
 
 ```powershell
 # Windows (PowerShell)
-git add lab02_eksploracja.ipynb
-git commit -m "L02: eksploracja datasetu tips — pipeline analityczny"
-git push
-```
-
-```bash
-# Linux / macOS
 git add lab02_eksploracja.ipynb
 git commit -m "L02: eksploracja datasetu tips — pipeline analityczny"
 git push
