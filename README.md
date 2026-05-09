@@ -42,7 +42,7 @@ Zajęcia odbywają się **co drugi zjazd** (zjazdy nieparzyste). Każdy zjazd ob
 | Zjazd 7 cz. 1 | Pandas — czyszczenie danych |
 | Zjazd 7 cz. 2 | Pandas — łączenie i agregacja (merge, groupby, pivot) |
 | Zjazd 9 cz. 1 | Matplotlib — podstawy wizualizacji |
-| Zjazd 9 cz. 2 | Seaborn — wykresy statystyczne i dashboard analityczny |
+| Zjazd 9 cz. 2 | Seaborn + dashboard analityczny — synteza materiału kursu |
 
 ### Logika kursu
 
@@ -52,7 +52,22 @@ Zajęcia odbywają się **co drugi zjazd** (zjazdy nieparzyste). Każdy zjazd ob
 | 3 | Fundament | NumPy — szybkie obliczenia na tablicach danych |
 | 5 | Pandas — wczytywanie i selekcja | Series, DataFrame, loc/iloc, filtrowanie, sortowanie |
 | 7 | Pandas — pełny pipeline analityka | Czyszczenie brudnych danych, łączenie tabel, agregacja, raporty |
-| 9 | Wizualizacja danych | Matplotlib + Seaborn — wykresy biznesowe, dashboard analityczny |
+| 9 | Wizualizacja danych — synteza | Matplotlib + Seaborn, dashboard biznesowy łączący wszystkie etapy |
+
+### Po kursie — kierunki dalszego rozwoju
+
+Kurs domyka się po zjeździe 9 z kompletem narzędzi analityka danych: **NumPy → Pandas → wizualizacja**. Tematy poza zakresem semestru, które warto zgłębić samodzielnie:
+
+| Obszar | Biblioteki / źródła |
+|--------|---------------------|
+| Statystyka opisowa i testy hipotez | `scipy.stats`, `statsmodels` |
+| Uczenie maszynowe | `scikit-learn` (klasyfikacja, regresja, klasteryzacja) |
+| Interaktywne wykresy i dashboardy | `plotly`, `streamlit`, `dash` |
+| Sztuczna inteligencja w analizie | API OpenAI / Anthropic, LangChain |
+
+## Zaliczenie
+
+Forma zaliczenia: **egzamin** z całości materiału (NumPy + Pandas + wizualizacja). Szczegółowe informacje — Moodle i ostatni zjazd.
 
 ## Szybki start
 
